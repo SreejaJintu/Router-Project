@@ -1,0 +1,29 @@
+.container{
+    padding-block: 30px;
+    width: 600px;
+    height:1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px 10px rgb(214, 195, 195)
+}
+.topContainer{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inputDiv{
+    display: flex;
+    gap: 20px;
+
+}
+#todoInput{
+    width: 300px;
+    padding: 10px 5px;
+
+
+}
